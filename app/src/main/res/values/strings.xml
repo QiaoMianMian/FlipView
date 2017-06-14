@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FlipView</string>
+
+    <!-- 颜色提醒 -->
+    <string name="flip_event_tel">Call</string>
+    <string name="flip_event_sms">SMS</string>
+    <string name="flip_event_email">Email</string>
+    <string name="flip_event_facebook">Facebook</string>
+    <string name="flip_event_wechat">WeChat</string>
+    <string name="flip_event_sina">WeiBo</string>
+    <string name="flip_event_twitter">Twitter</string>
+    <string name="flip_event_qq">QQ</string>
+</resources>

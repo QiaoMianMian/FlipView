@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <com.flip.view.arc.ArcFrame
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/flip_bolder_rear">
+
+        <com.flip.view.arc.ArcLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:arc_axisRadius="46dp"
+            app:arc_origin="center">
+
+            <ImageView
+                android:id="@+id/rear_color_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_color_1_0" />
+
+            <ImageView
+                android:id="@+id/rear_color_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_color_2_0" />
+
+            <ImageView
+                android:id="@+id/rear_color_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_color_3_0" />
+
+            <ImageView
+                android:id="@+id/rear_color_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_color_4_0" />
+
+            <ImageView
+                android:id="@+id/rear_color_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_color_5_0" />
+
+            <ImageView
+                android:id="@+id/rear_color_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_color_6_0" />
+
+        </com.flip.view.arc.ArcLayout>
+
+        <ImageView
+            android:id="@+id/rear_color_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_color_0" />
+    </com.flip.view.arc.ArcFrame>
+</RelativeLayout>

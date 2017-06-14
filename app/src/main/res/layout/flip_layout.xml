@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="4dp">
+
+    <com.flip.view.FlipView
+        android:id="@+id/flip_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:clipToPadding="false"
+        app:animationDuration="200"
+        app:checked="false"
+        app:enableInitialAnimation="true"
+        app:frontBackground="@android:color/transparent"
+        app:frontLayout="@layout/flip_layout_front"
+        app:rearBackground="@android:color/transparent"
+        app:rearLayout="@layout/flip_layout_rear"/>
+</RelativeLayout>
